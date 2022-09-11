@@ -13,3 +13,7 @@ variable "enabled" {
 variable "rotation_enabled" {
   default = true
 }
+
+variable "workspace" {
+  default = ""
+}

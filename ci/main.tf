@@ -8,10 +8,6 @@ terraform {
 
   cloud {
     organization = "felipemdrs"
-
-    workspaces {
-      name = "aws-terraform-lambda"
-    }
   }
 }
 
